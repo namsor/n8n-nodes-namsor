@@ -19,15 +19,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Origin Analysis**: Determine geographic origin
   - Predict by Name (first + last name)
   - Predict by Full Name (complete name string)
-  - Returns top 5 countries, region, and sub-region
+  - Returns top 10 countries, region, and sub-region
 - **Ethnicity/Diaspora Classification**: Identify ethnicity
   - Predict by Name (last name required, optional first name + country)
   - Predict by Full Name (complete name string, optional country)
-  - Returns top 5 ethnicities ranked by probability
+  - Returns top 10 ethnicities ranked by probability
 - **Country of Residence**: Predict likely country of residence
   - Predict by Name (first + last name)
   - Predict by Full Name (complete name string)
-  - Returns top 5 countries with region information
+  - Returns top 10 countries with region information
 - **US Race/Ethnicity Classification**: US Census categories (6 classes)
   - Predict by Name (first + last name, optional country)
   - Predict by Full Name (complete name string, optional country)
