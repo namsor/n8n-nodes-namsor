@@ -5,7 +5,7 @@
   "license": "MIT",
   "homepage": "https://github.com/namsor/n8n-nodes-namsor#readme",
   "keywords": ["n8n-community-node-package", "namsor", "name-analysis", "ethnicity", "demographics", "ai"],
-  "author": { "name": "AgrapheP", "email": "louis.crouzat@gmail.com" },
+  "author": { "name": "Namsor" },
   "repository": {
     "type": "git",
     "url": "https://github.com/namsor/n8n-nodes-namsor.git"

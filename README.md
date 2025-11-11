@@ -215,7 +215,7 @@ All features implemented:
 ## 📜 License & Support
 
 - License: [MIT](LICENSE)  
-- Author: **AgrapheP / Namsor**  
+- Author: **Namsor**  
 - Support:  
   - [GitHub Repository](https://github.com/namsor/n8n-nodes-namsor)  
   - [n8n Community Forum](https://community.n8n.io/)
