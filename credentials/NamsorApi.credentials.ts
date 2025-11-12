@@ -26,11 +26,14 @@ export class NamsorApi implements ICredentialType {
     },
   };
 
-  test = {
+    test = {
     request: {
       baseURL: 'https://namsor.app',
       url: '/api/add-on/get-user-data-and-features',
       method: 'GET' as IHttpRequestMethods,
+      headers: {
+        'X-API-KEY': '={{$credentials.apiKey}}',
+      },
     },
   };
 }
