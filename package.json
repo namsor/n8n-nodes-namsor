@@ -15,8 +15,11 @@
     "ai"
   ],
   "author": {
-    "name": "Namsor"
+    "name": "Namsor",
+    "email": "contact@namsor.com",
+    "url": "https://namsor.app/"
   },
+
   "repository": {
     "type": "git",
     "url": "https://github.com/namsor/n8n-nodes-namsor.git"
