@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-namsor",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Namsor - AI-powered name analytics for n8n: seamless integration to predict gender, origin, and ethnicity from personal names.",
   "license": "MIT",
   "homepage": "https://github.com/namsor/n8n-nodes-namsor#readme",
