@@ -1,11 +1,22 @@
 {
   "name": "n8n-nodes-namsor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Namsor - AI-powered name analytics for n8n: seamless integration to predict gender, origin, and ethnicity from personal names.",
   "license": "MIT",
   "homepage": "https://github.com/namsor/n8n-nodes-namsor#readme",
-  "keywords": ["n8n-community-node-package", "namsor", "name-analysis", "gender", "origin", "ethnicity", "demographics", "ai"],
-  "author": { "name": "Namsor" },
+  "keywords": [
+    "n8n-community-node-package",
+    "namsor",
+    "name-analysis",
+    "gender",
+    "origin",
+    "ethnicity",
+    "demographics",
+    "ai"
+  ],
+  "author": {
+    "name": "Namsor"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/namsor/n8n-nodes-namsor.git"
@@ -19,12 +30,18 @@
     "release": "n8n-node release",
     "prepublishOnly": "n8n-node prerelease"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "n8n": {
     "n8nNodesApiVersion": 1,
     "strict": true,
-    "credentials": ["dist/credentials/NamsorApi.credentials.js"],
-    "nodes": ["dist/nodes/Namsor/Namsor.node.js"]
+    "credentials": [
+      "dist/credentials/NamsorApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Namsor/Namsor.node.js"
+    ]
   },
   "devDependencies": {
     "@n8n/node-cli": "*",
@@ -33,5 +50,7 @@
     "release-it": "^19.0.4",
     "typescript": "5.9.2"
   },
-  "peerDependencies": { "n8n-workflow": "*" }
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
 }
